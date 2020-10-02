@@ -1,0 +1,14 @@
+.alinear {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+a {
+    text-decoration: none !important;
+    margin-left: 10px;
+}
+
+header {
+    margin-bottom: 30px;
+}

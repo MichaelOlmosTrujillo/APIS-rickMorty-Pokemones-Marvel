@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/estilos.css" />
+  <title>APIs </title>
+</head>
+
+<body>
+  <div class="header position-fixed mb-1">
+    <header class="bg-dark text-center headerStyle">
+      <h1 class="text-primary">
+        Personajes Rick and Morty por @michaelOlmosTrujillo
+      </h1>
+      <div class="d-flex justify-content-start align-items-end ">
+        <ul class="pagination mb-0" id="paginacion">
+
+        </ul>
+
+        <a class="text-primary" href="./pages/pokeApi.html">
+          PokeApi
+        </a>
+        <a href="./pages/apiMarvel.html">Api de Marvel</a>
+
+
+      </div>
+
+
+    </header>
+  </div>
+
+  <div class="container position-relative">
+    <div id="datosPersonajes" class="row position-absolute paddingPersonajes"></div>
+  </div>
+
+
+
+  <script src="./js/jquery-3.5.1.slim.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/getData.js"></script>
+
+</body>
+
+</html>
